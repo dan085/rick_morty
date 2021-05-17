@@ -16,6 +16,6 @@
     <string name="issue_login">Problemas al iniciar sesión</string>
     <string name="ok">OK</string>
     <string name="empty_list">Lista Vacía</string>
-
+    <string name="default_notification_channel_id" translatable="false">Mensajes</string>
     <string name="sign_in_with_google">Iniciar sesión con GOOGLE</string>
 </resources>
