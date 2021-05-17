@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801937535815",
+    "project_id": "betterfly-12170",
+    "storage_bucket": "betterfly-12170.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801937535815:android:1df91175fc7a32978e9262",
+        "android_client_info": {
+          "package_name": "com.betterfly.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801937535815-5i127h4jbk48ctj1mqt25sogb1mbghfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwh7LSl2LeI3ZfDkzC8WC-v0Qmcaw_9Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801937535815-5i127h4jbk48ctj1mqt25sogb1mbghfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rick</string>
+    <string name="home">Inicio</string>
+
+    <string name="gender">Género</string>
+    <string name="origin">Origen</string>
+    <string name="name">Nombre</string>
+    <string name="information">Información</string>
+    <string name="place">Place</string>
+    <string name="status">Status</string>
+    <string name="sin_gin">Iniciar sesión</string>
+    <string name="anonimous">Sin iniciar sesión</string>
+
+    <string name="login_with">Inicio sesión con :</string>
+    <string name="login_without_account">Inicio sesión sin una cuenta</string>
+    <string name="issue_login">Problemas al iniciar sesión</string>
+    <string name="ok">OK</string>
+    <string name="empty_list">Lista Vacía</string>
+
+    <string name="sign_in_with_google">Iniciar sesión con GOOGLE</string>
+</resources>

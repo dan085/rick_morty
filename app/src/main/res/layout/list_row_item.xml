@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayout_list_song"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_adapter">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="@dimen/size_image_details"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_padding_3"
+            android:layout_marginLeft="@dimen/margin_padding_3"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginStart="@dimen/margin_padding_10"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                android:layout_marginTop="@dimen/margin_padding_10"
+                android:layout_marginEnd="@dimen/margin_padding_10"
+                android:text="@string/name"
+                android:textAllCaps="false"
+                android:textColor="@color/green_android"
+                android:textSize="@dimen/material_text_title"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewStatus"
+                    android:layout_width="@dimen/h20"
+                    android:layout_height="@dimen/h20"
+                    app:srcCompat="@drawable/ic_dot_green" />
+
+                <TextView
+                    android:id="@+id/textViewStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/status" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginStart="@dimen/margin_padding_20"
+                    android:layout_marginLeft="@dimen/margin_padding_20"
+                    android:gravity="center|center_vertical"
+                    android:text="@string/place"
+                    android:textColor="@color/black1_test"
+                    android:textSize="@dimen/material_text_caption"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_padding_10"
+                android:layout_marginRight="@dimen/margin_padding_10"
+                android:gravity="right"
+                android:text="17/01/2021 14:37"
+                android:textColor="@color/plomo"
+                android:textSize="@dimen/material_text_caption"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:ignore="RtlHardcoded" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_padding_2"
+                android:layout_marginStart="@dimen/margin_padding_3"
+                android:layout_marginLeft="@dimen/margin_padding_3"
+                android:layout_marginTop="@dimen/margin_padding_4"
+                android:layout_marginEnd="@dimen/margin_padding_3"
+                android:layout_marginRight="@dimen/margin_padding_3"
+                android:background="@color/white3"
+                android:orientation="horizontal" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

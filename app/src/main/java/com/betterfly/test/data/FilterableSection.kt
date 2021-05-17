@@ -1,0 +1,1 @@
+package com.betterfly.test.datainterface FilterableSection {    fun filter(query: String)}

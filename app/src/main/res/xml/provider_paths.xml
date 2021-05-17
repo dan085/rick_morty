@@ -1,0 +1,46 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="external_files" path="." />
+    <external-cache-path name="external_cache_path" path="." />
+    <external-files-path name="external_file_path" path="." />
+    <external-path name="external_path_path" path="." />
+    <root-path name="external_files" path="/sdcard/" />
+    <external-path name="sdcard" path="/" />
+    <!-- Share folder under device root directory. The base folder is new File("/") -->
+    <root-path name="root" path="." />
+
+    <!-- Share folder under internal file folder. The base folder is context.getFilesDir() -->
+    <files-path name="internal_files" path="." />
+
+    <!-- Share folder under internal cache folder. The base folder is context.getCacheDir() -->
+    <cache-path name="internal_cache" path="." />
+
+    <!-- Share folder under public external storage folder.The base folder is Environment.getExternalStorageDirectory()-->
+    <external-path name="external" path="Android/data/com.betterfly.test/cache/" />
+
+    <external-path name="external_2" path="Android/data/com.betterfly.test/" />
+
+    <!-- Share folder under app specific external file folder.The base folder is context.getExternalFilesDirs()-->
+    <external-files-path name="external_files" path="." />
+
+    <!-- Share folder under app specific external cache folder.The base folder is context.getExternalCacheDirs()-->
+    <external-cache-path name="external_cache" path="." />
+
+    <external-path name="external_files" path="."/>
+
+    <files-path name="files" path="images/media/" /> <!-- Context.getFilesDir(). -->
+    <cache-path name="images" path="./images" /><!-- getCacheDir(). -->
+    <external-path name="name" path="path" /> <!-- Environment.getExternalStorageDirectory(). -->
+    <external-files-path name="storage/emulated" path="." /> <!-- Context#getExternalFilesDir(String) Context.getExternalFilesDir(null). -->
+    <external-cache-path name="storage/emulated" path="." /> <!-- Context.getExternalCacheDir(). -->
+
+    <external-path name="external_files" path="." />
+    <files-path name="files_path"  path="."/>
+
+    <external-path name="external_files22" path="/data/user/0" />
+    <files-path name="files_path22"  path="/data/user/0"/>
+    <external-path name="/storage/emulated/0" path="."/>
+
+    <cache-path name="shared_images" path="images/"/>
+
+    <cache-path name="image" path="image/"/>
+</paths>
