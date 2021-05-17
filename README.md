@@ -18,5 +18,5 @@ Librerías más importantes utilizadas:
   - Volley, para realizar las consultas a la API.
   - Glide, para cargar las imágenes.
   - Firebase Authentication, para iniciar sesión con una cuenta de Google.
-  - Firebase Firestone, para guardar información de un usuario en la base de datos al momento de iniciar sesión (El código esta oculto).
+  - Firebase Firestone, para guardar información de un usuario en la base de datos al momento de iniciar sesión (El código está oculto).
   - Firebase Cloud Messaging, se integró el sistema para recibir notificaciones push y su icono de notificación.
